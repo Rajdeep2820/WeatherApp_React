@@ -10,7 +10,6 @@ export default function SearchBox(){
     let getWeatherInfo = async (evt)=>{
         let response = await fetch(`${API_URL}?q=${city}&appid=${API_KEY}&units=metric`);
         let jsonResponse = await response.json();
-        console.log(jsonResponse);
         let result = {
             temp : jsonResponse.main.temp,
             humidity : jsonResponse.main.humidity,
