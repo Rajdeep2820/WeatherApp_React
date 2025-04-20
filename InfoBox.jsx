@@ -18,7 +18,6 @@ export default function InfoBox(){
 
     return (
         <div className="info">
-            <h2> Weather Info</h2>
             <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         sx={{ height: 140 }}

@@ -33,7 +33,6 @@ export default function SearchBox(){
     }
     return(
         <div>
-            <h2>Search For the Weather</h2>
             <form onSubmit={handleSubmit}
             className='Form'>
             <TextField id="city" 
